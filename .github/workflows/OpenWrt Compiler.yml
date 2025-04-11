@@ -40,7 +40,7 @@ jobs:
 
     steps:
     - name: Checkout Github Workspace
-      uses: actions/checkout@v4.2.2
+      uses: actions/checkout@main
 
     - name: Assign Environment Variables
       run: |
